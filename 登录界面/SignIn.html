@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录界面</title>
+    <link rel="stylesheet" type="text/css" href="css/SignIn.css">
+
+
+</head>
+
+<body>
+    <div id="contain">
+        <marquee width="100%" height="20" scrolldelay="150" direction="right" scrollamount="10">
+            <font face="黑体" size="4" style="color: white;">欢迎使用华电智学网,有新消息会在这里显示</font>
+        </marquee>
+        <div id="university">
+            <div id="slogan1" style="display: none;">
+            	
+            </style>
+                华电智学网
+            </div>
+            <div id="slogan2" style="display: none;">
+                <p>在这里，你能与老师零距离沟通</p>
+                <p>在这里，你能解开你所有的疑惑</p>
+                <p>在这里，你能找到与你志同道合的小伙伴</p>
+            </div>
+        </div>
+        <form id="cin">
+            <fieldset id="data">
+                <legend>Personalia:</legend>
+                <ul>
+                    <li>
+                        <input type="text" placeholder="please input username" class="data"></input>
+                    </li>
+                    <li>
+                        <input type="text" placeholder="please input password" class="data"></input>
+                    </li>
+                    <li>
+                        <input type="text" placeholder="please input identifying code" class="data"></input>
+                    </li>
+                </ul>
+                <button type="submit" value="登录" id="login">登录</button>
+                <div style="margin:0 auto;width: 300px;"><a href="#">注册用户</a><a href="#">忘记密码</a>
+                    <div>
+            </fieldset>
+        </form>
+        </div>
+        <script src="jquery.js"></script>
+        <script>
+        $(function() {
+        	$("#slogan1").fadeIn(1500);
+        	$("#slogan2").fadeIn(1900);
+        })
+        
+        </script>
+</body>
+
+</html>
